@@ -57,10 +57,19 @@ function dot() {
     showDisplay();
 }
 function equals() {
-    let result = eval(userInput.join(""));
-    clear();
-    userInput.push(result);
-    showDisplay();
+    let result;
+    try {
+        result = eval(userInput.join(""));
+        clear();
+        userInput.push(result);
+        showDisplay();
+    }
+    catch (err) {
+        clear();
+        userInput.push("ERROR");
+        showDisplay();
+    }
+    
 }
 function showDisplay() {
     document.getElementById("calculatorDisplay").innerHTML = userInput.join("");
