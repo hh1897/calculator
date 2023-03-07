@@ -1,4 +1,5 @@
 // JavaScript source code
 
 
-// create 
+// get user input from user
+document.getElementById("").addEventListener("click", displayDate);
