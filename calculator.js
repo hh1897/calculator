@@ -2,7 +2,7 @@
 
 let userInput = [];
 
-// add event listeners 
+// add event listeners to input divs
 for (i = 0; i <= 9; i++) {
     let number = i.toString();
     let value = document.getElementById(number).innerHTML;
@@ -18,7 +18,7 @@ document.getElementById("subtract").addEventListener("click", function () { subt
 document.getElementById("dot").addEventListener("click", function () { dot() });
 document.getElementById("equals").addEventListener("click", function () { equals() });
 
-// 
+// Convert string to int, then push to userInput array
 function numberInput(value) {
     let number = parseInt(value);
     userInput.push(number);
@@ -32,6 +32,7 @@ function powerTo() {
     userInput.push("**");
     showDisplay();
 }
+// Remove the last user input; the last item in the array
 function back() {
     userInput.pop();
     showDisplay();
@@ -58,6 +59,7 @@ function dot() {
 }
 function equals() {
     let result;
+    // Produce error message if expression cannot be calculated
     try {
         result = eval(userInput.join(""));
         clear();

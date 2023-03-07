@@ -17,6 +17,7 @@
     border-radius: 2rem;
     margin: 4rem;
 }
+/*User Input Display*/
 #calculatorDisplay {
     background-color: #17252A;
     height: 10rem;
@@ -53,7 +54,7 @@
     .input:hover {
         background-color: #17252A;
     }
-
+/*Size "equals" div to twice the size of other input divs*/
 #equals {
     width: 12.5rem;
     font-size: 3rem;
