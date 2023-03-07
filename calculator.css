@@ -8,7 +8,7 @@
 
 #calculator {
     background-color: #3aafa9;
-    height: 42rem;
+    height: 50rem;
     width: 30rem;
     display: flex;
     flex-direction: column;
@@ -49,9 +49,13 @@
     background-color: #2b7a78;
     width: 5.5rem;
     height: 5.5rem;
-    border-radius: 2rem;
+    border-radius: 2.5rem;
     
 }
+    .input:hover {
+        background-color: #17252A;
+    }
+
 #equals {
     width: 12.5rem;
     font-size: 3rem;
