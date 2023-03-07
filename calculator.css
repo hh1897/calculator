@@ -1,39 +1,61 @@
 ﻿body
 {
     display: flex;
-    
+    justify-content: center;
+    background-color: lightcyan;
+    font-family: monospace;
 }
 
 #calculator {
-    background-color: blue;
+    background-color: #3aafa9;
     height: 42rem;
     width: 30rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 2rem;
+    margin: 4rem;
     
 }
 #calculatorDisplay {
-    background-color: black;
-    height: 10rem;
+    background-color: #17252A;
+    height: 8rem;
     width: 27rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    color: #FEFFFF;
+    font-size: 4rem;
+    text-align: end;
+    padding-right: 0.5rem;
 }
+
 .inputRow {
-    background-color: palevioletred;
+    background-color: #def2f1;
     width: 27rem;
     height: 7rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    
+    
 }
 .input {
-    background-color: cadetblue;
+    color: #FEFFFF;
+    text-align: center;
+    line-height: 5rem;
+    font-size: 1.6rem;
+    background-color: #2b7a78;
     width: 5.5rem;
     height: 5.5rem;
+    border-radius: 2rem;
     
 }
 #equals {
     width: 12.5rem;
+    font-size: 3rem;
+}
+#subtract {
+    font-size: 3rem;
 }
