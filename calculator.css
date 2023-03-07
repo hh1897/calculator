@@ -16,7 +16,6 @@
     align-items: center;
     border-radius: 2rem;
     margin: 4rem;
-    
 }
 #calculatorDisplay {
     background-color: #17252A;
@@ -38,8 +37,6 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    
-    
 }
 .input {
     color: #FEFFFF;
@@ -50,7 +47,6 @@
     width: 5.5rem;
     height: 5.5rem;
     border-radius: 2.5rem;
-    
 }
     .input:hover {
         background-color: #17252A;
