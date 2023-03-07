@@ -1,3 +1,39 @@
 ﻿body
 {
+    display: flex;
+    
+}
+
+#calculator {
+    background-color: blue;
+    height: 42rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#calculatorDisplay {
+    background-color: black;
+    height: 10rem;
+    width: 27rem;
+}
+.inputRow {
+    background-color: palevioletred;
+    width: 27rem;
+    height: 7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.input {
+    background-color: cadetblue;
+    width: 5.5rem;
+    height: 5.5rem;
+    
+}
+#equals {
+    width: 12.5rem;
 }
